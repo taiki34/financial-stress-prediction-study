@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+data/
+artifacts/
+submissions/
+*.npz
+*.npy
+*.joblib
+*.pkl
