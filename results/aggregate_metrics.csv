@@ -1,0 +1,7 @@
+candidate,evaluation,roc_auc,log_loss,competition_score,status
+reference_prediction,5-fold_oof,0.922432108,,,reference_for_final_local_test
+v82_dual_residual_rank,5-fold_oof,0.922524667,,,last_local_only_candidate_all_five_folds_improved
+v72_rank_calibration,public,,,0.738486037,best_public_score_in_report_scope
+v72_rank_calibration,revealed_private,,,0.731758665,post_selection_evaluation
+v82_dual_residual_rank,public,,,0.735285834,post_selection_evaluation
+v82_dual_residual_rank,revealed_private,,,0.730074958,post_selection_evaluation
