@@ -1,15 +1,17 @@
 # Financial Stress Prediction from Mobile Money Activity
 
-This repository documents an independent, post-competition study of liquidity-stress prediction using data and model artefacts released after a Zindi challenge.
+This project began with my participation in the Zindi AI4EAC Liquidity Stress Early Warning Challenge, where I placed **12th on the final leaderboard** in a field of about 270 participants.
 
-The aim is to estimate the probability that a customer will experience liquidity stress in the next 30 days from six months of mobile-money activity. Because the evaluation combines log loss and ROC-AUC, the work treats ranking and probability calibration as separate problems.
+The task was to estimate the probability that a customer would experience liquidity stress within 30 days from six months of mobile-money activity. After the competition, I extended the work into an independent study of validation, feature engineering, model comparison, and calibration. Because the evaluation combines log loss and ROC-AUC, the analysis treats ranking and probability calibration as separate problems.
 
-**Project status:** complete retrospective study  
+**Project status:** complete competition project and retrospective study  
 **Main notebook:** [`financial_stress_prediction_report.ipynb`](financial_stress_prediction_report.ipynb)
 
-## Provenance and scope
+## Competition context and scope
 
-This was not professor-supervised coursework and should not be presented as an eligible prize entry. The starting raw data and reference workflow came from a publicly released first-place solution repository. The analysis here is a self-directed extension focused on validation, feature testing, model comparison, and calibration.
+The challenge's prizes were restricted to students enrolled at universities in the East African Community, so my leaderboard placement was not eligible for a prize. This was not professor-supervised coursework.
+
+After the competition, I used the publicly released first-place workflow as a reference for the self-directed extension documented here. The later analysis focuses on validation, feature testing, model comparison, and calibration.
 
 No code from the reference solution is included in this portfolio package. The challenge data and large model-ready matrices are also excluded.
 
